@@ -1,0 +1,79 @@
+/* /static/css/styles.css */
+
+/* 전체 레이아웃 및 배경 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+/* 카드 스타일 */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+/* 텍스트 스타일 */
+.lead {
+    font-size: 1.25rem;
+}
+
+/* 버튼 스타일 */
+.btn-outline-secondary {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-outline-primary {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: #28a745;
+    border-color: #28a745;
+    transition: background-color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+/* 그래프 캔버스 스타일 */
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 로그 리스트 아이템 스타일 */
+.list-group-item {
+    font-size: 1rem;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#powerChart {
+    max-width: 100%; /* 반응형으로 크기 조정 */
+    height: auto;
+}

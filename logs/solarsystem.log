@@ -1,0 +1,59 @@
+2024-11-03T21:39:34.697+09:00  INFO 23168 --- [solarsystem] [restartedMain] c.e.solarsystem.SolarsystemApplication   : Starting SolarsystemApplication using Java 21.0.4 with PID 23168 (C:\Users\gyum8\Desktop\Dev\Java\solarsystem\build\classes\java\main started by gyum8 in C:\Users\gyum8\Desktop\Dev\Java\solarsystem)
+2024-11-03T21:39:34.705+09:00 DEBUG 23168 --- [solarsystem] [restartedMain] c.e.solarsystem.SolarsystemApplication   : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-03T21:39:34.706+09:00  INFO 23168 --- [solarsystem] [restartedMain] c.e.solarsystem.SolarsystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-03T21:39:34.763+09:00  INFO 23168 --- [solarsystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-03T21:39:34.763+09:00  INFO 23168 --- [solarsystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-03T21:39:35.322+09:00  INFO 23168 --- [solarsystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-03T21:39:35.373+09:00  INFO 23168 --- [solarsystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2024-11-03T21:39:35.797+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-03T21:39:35.807+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-03T21:39:35.807+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-03T21:39:35.842+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-03T21:39:35.842+09:00  INFO 23168 --- [solarsystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1078 ms
+2024-11-03T21:39:35.948+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-03T21:39:35.989+09:00  INFO 23168 --- [solarsystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-03T21:39:36.015+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-03T21:39:36.252+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-03T21:39:36.285+09:00  INFO 23168 --- [solarsystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-03T21:39:36.504+09:00  INFO 23168 --- [solarsystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1764d65d
+2024-11-03T21:39:36.506+09:00  INFO 23168 --- [solarsystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-03T21:39:37.235+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-03T21:39:37.285+09:00  INFO 23168 --- [solarsystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-03T21:39:37.524+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-03T21:39:37.913+09:00  WARN 23168 --- [solarsystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-03T21:39:38.214+09:00  WARN 23168 --- [solarsystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-11-03T21:39:38.241+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-03T21:39:38.246+09:00  INFO 23168 --- [solarsystem] [restartedMain] c.e.solarsystem.SolarsystemApplication   : Started SolarsystemApplication in 4.028 seconds (process running for 4.724)
+2024-11-03T21:40:42.757+09:00  INFO 23168 --- [solarsystem] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-03T21:40:42.757+09:00  INFO 23168 --- [solarsystem] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-11-03T21:40:42.759+09:00  INFO 23168 --- [solarsystem] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-11-03T21:40:44.834+09:00  INFO 23168 --- [solarsystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (0 additions, 0 deletions, 7 modifications)
+2024-11-03T21:40:44.847+09:00  INFO 23168 --- [solarsystem] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-03T21:40:44.852+09:00  INFO 23168 --- [solarsystem] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-03T21:40:44.862+09:00  INFO 23168 --- [solarsystem] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-03T21:40:45.036+09:00  INFO 23168 --- [solarsystem] [restartedMain] c.e.solarsystem.SolarsystemApplication   : Starting SolarsystemApplication using Java 21.0.4 with PID 23168 (C:\Users\gyum8\Desktop\Dev\Java\solarsystem\build\classes\java\main started by gyum8 in C:\Users\gyum8\Desktop\Dev\Java\solarsystem)
+2024-11-03T21:40:45.036+09:00 DEBUG 23168 --- [solarsystem] [restartedMain] c.e.solarsystem.SolarsystemApplication   : Running with Spring Boot v3.3.5, Spring v6.1.14
+2024-11-03T21:40:45.036+09:00  INFO 23168 --- [solarsystem] [restartedMain] c.e.solarsystem.SolarsystemApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-03T21:40:45.305+09:00  INFO 23168 --- [solarsystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-03T21:40:45.324+09:00  INFO 23168 --- [solarsystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 3 JPA repository interfaces.
+2024-11-03T21:40:45.419+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-11-03T21:40:45.420+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-03T21:40:45.421+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-03T21:40:45.438+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-03T21:40:45.438+09:00  INFO 23168 --- [solarsystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 399 ms
+2024-11-03T21:40:45.477+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-03T21:40:45.482+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-03T21:40:45.492+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-03T21:40:45.493+09:00  INFO 23168 --- [solarsystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-11-03T21:40:45.508+09:00  INFO 23168 --- [solarsystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bbaef6c
+2024-11-03T21:40:45.508+09:00  INFO 23168 --- [solarsystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-11-03T21:40:45.584+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-03T21:40:45.597+09:00  INFO 23168 --- [solarsystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-03T21:40:45.721+09:00  WARN 23168 --- [solarsystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-03T21:40:45.857+09:00  WARN 23168 --- [solarsystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2024-11-03T21:40:45.870+09:00  INFO 23168 --- [solarsystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-11-03T21:40:45.873+09:00  INFO 23168 --- [solarsystem] [restartedMain] c.e.solarsystem.SolarsystemApplication   : Started SolarsystemApplication in 0.87 seconds (process running for 72.351)
+2024-11-03T21:40:45.875+09:00  INFO 23168 --- [solarsystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-11-03T21:41:13.392+09:00  INFO 23168 --- [solarsystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-03T21:41:13.392+09:00  INFO 23168 --- [solarsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-11-03T21:41:13.395+09:00  INFO 23168 --- [solarsystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
